@@ -1,0 +1,27 @@
+body {
+    background-color: #203239;
+}
+img {
+    width: 36%;
+    margin: calc(20%/4);
+    box-sizing: border-box;
+    border: 0.5em solid #C1F4C5;
+}
+nav {
+    text-align: center;
+    width: 30%;
+    margin: auto 450px;
+    color: #FF1818;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
+    border-bottom: 1px solid #139487;
+    padding: 1.2em 0; 
+}
+img:hover {
+    border-color: #FFF89A;
+}
+nav:hover {
+    transform: translateY(-20px);
+    transition: 1s;
+    color: #FFE6AB;
+}
